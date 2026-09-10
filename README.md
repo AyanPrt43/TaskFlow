@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://task-flow-jt79rbhvf-ayan-298e.vercel.app/login">
+  <a href="https://task-flow-68u4r9fu6-ayan-298e.vercel.app/login">
     <img src="https://img.shields.io/badge/🌐%20Live%20Demo-Visit%20TaskFlow-blue?style=for-the-badge" alt="Live Demo">
   </a>
   <a href="https://github.com/AyanPrt43/TaskFlow">
@@ -89,7 +89,7 @@ The Profile section provides users with their account and profile information.
 
 ## 🌐 Live Application
 
-### 👉 [🚀 Visit TaskFlow Live Demo](https://task-flow-jt79rbhvf-ayan-298e.vercel.app/login)
+### 👉 [🚀 Visit TaskFlow Live Demo](https://task-flow-68u4r9fu6-ayan-298e.vercel.app/login)
 
 Experience the deployed application and explore the authentication flow, dashboard, project management interface, task management, and responsive UI.
 
