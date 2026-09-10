@@ -6,7 +6,10 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "vite build"
   },
   "keywords": [
     "Backend",
@@ -16,7 +19,9 @@
   "author": "Ayan Pratap",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "gh-pages": "^6.3.0",
+    "nodemon": "^3.1.14",
+    "vite": "^8.3.0"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
