@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://task-manager-backend-psi.vercel.app/api/:path*"
+      "destination": "https://taskflow-faim.onrender.com/api/:path*"
     },
     {
       "source": "/(.*)",
