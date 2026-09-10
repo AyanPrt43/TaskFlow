@@ -561,28 +561,6 @@ This project demonstrates practical implementation of:
 
 ---
 
-# 📸 More Screenshots
-
-Additional screenshots can be added to the `screenshots` directory.
-
-### Dashboard
-
-![TaskFlow Dashboard](./screenshots/dashboard.png)
-
-### Project Management
-
-![TaskFlow Project Management](./screenshots/project-management.png)
-
-### Task Management
-
-![TaskFlow Task Management](./screenshots/task-management.png)
-
-### Task Details
-
-![Task Details](./screenshots/task-details.png)
-
----
-
 # 🔮 Future Improvements
 
 - Complete project and task CRUD API integration
