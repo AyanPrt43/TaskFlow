@@ -33,7 +33,7 @@ function CreateProjectModal({ isOpen, onClose, onCreate }) {
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center">
-      <div className="bg-white rounded-xl p-8 w-full max-w-md">
+      <div className="bg-black/20 rounded-xl p-8 w-full max-w-md">
         <h2 className="text-2xl font-bold mb-6">Create Project</h2>
 
         <form onSubmit={handleSubmit} className="space-y-5">

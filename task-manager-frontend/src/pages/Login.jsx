@@ -49,7 +49,7 @@ function Login() {
     <div className="relative w-full h-screen overflow-hidden">
       <div className="absolute inset-0 bg-[url('/LoginBG.png')] bg-cover bg-center backdrop-blur-md"></div>
       <div className="min-h-screen flex items-center justify-center relative z-10 ">
-        <div className="bg-white/20 p-8 rounded-xl shadow-md w-full max-w-md border shadow-black/50" >
+        <div className="bg-black/20 p-8 rounded-xl shadow-md w-full max-w-md border shadow-black/50" >
           <h1 className="text-3xl font-bold text-center mb-6">Task Flow</h1>
 
           <form onSubmit={handleSubmit} className="space-y-5">

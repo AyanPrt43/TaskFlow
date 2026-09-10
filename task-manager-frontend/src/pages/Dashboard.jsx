@@ -19,18 +19,18 @@ function Dashboard() {
   const completedTasks = tasks.filter((task) => task.status === "done");
 
   return (
-    <div className="flex min-h-screen bg-gray-100">
+    <div className="flex min-h-screen">
       <Sidebar />
 
       <div className="flex-1">
         <Navbar />
 
         <main className="p-8">
-          <h1 className="text-4xl font-bold">
+          <h1 className="text-4xl text-white font-bold">
             Welcome back, {user?.username} 👋
           </h1>
 
-          <p className="text-gray-600 mt-2">
+          <p className="text-white/70 mt-2">
             Manage your projects and tasks from one place.
           </p>
 

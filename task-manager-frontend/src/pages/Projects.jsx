@@ -91,7 +91,7 @@ function Projects() {
   };
 
   return (
-    <div className="flex min-h-screen bg-gray-100">
+    <div className="flex min-h-screen ">
       <Sidebar />
 
       <div className="flex-1">
@@ -99,11 +99,11 @@ function Projects() {
 
         <main className="p-8">
           <div className="flex justify-between items-center mb-8">
-            <h1 className="text-4xl font-bold">Projects</h1>
+            <h1 className="text-4xl font-bold text-white">Projects</h1>
 
             <button
               onClick={() => setShowModal(true)}
-              className="bg-black text-white px-5 py-3 rounded-lg"
+              className="bg-black/30 text-white px-5 py-3 rounded-lg hover:transition-all hover:scale-[1.02] hover:bg-white/50 hover:text-black"
             >
               + Create Project
             </button>

@@ -24,15 +24,15 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-black text-white px-8 py-4 flex justify-between items-center">
-      <h1 className="text-2xl font-bold">Task Manager</h1>
+    <nav className="text-white px-8 py-4 flex justify-between border-b shadow border-white/20 items-center">
+      <h1 className="text-2xl font-bold">Task Flow</h1>
 
       <div className="flex items-center gap-5">
         <span>{user?.username || "User"}</span>
 
         <button
           onClick={handleLogout}
-          className="bg-white text-black px-4 py-2 rounded-lg hover:bg-gray-200"
+          className="bg-black/20 text-white px-4 py-2 rounded-xl hover:bg-white/50 hover:text-black transition"
         >
           Logout
         </button>

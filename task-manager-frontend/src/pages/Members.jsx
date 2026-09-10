@@ -109,23 +109,23 @@ function Members() {
   ];
 
   return (
-    <div className="flex min-h-screen bg-gray-100">
+    <div className="flex min-h-screen">
       <Sidebar />
 
       <div className="flex-1">
         <Navbar />
 
         <main className="p-8">
-          <h1 className="text-4xl font-bold mb-8">Members</h1>
+          <h1 className="text-4xl font-bold mb-8 text-white">Members</h1>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-3 gap-6 ">
             {members.map((member) => (
-              <div key={member.id} className="bg-white rounded-xl shadow p-6">
-                <h2 className="text-xl font-bold">{member.name}</h2>
+              <div key={member.id} className="rounded-xl shadow p-6 bg-black/20 border border-white/40 shadow-white/20">
+                <h2 className="text-xl font-bold text-white">{member.name}</h2>
 
-                <p className="text-gray-500">{member.email}</p>
+                <p className="text-white/80">{member.email}</p>
 
-                <p className="mt-3">{member.role}</p>
+                <p className="mt-3 text-white">{member.role}</p>
               </div>
             ))}
           </div>

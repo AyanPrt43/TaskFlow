@@ -1,6 +1,6 @@
 function MemberCard({ member, onDelete }) {
   return (
-    <div className="bg-white rounded-xl shadow p-6">
+    <div className="bg-black/20 rounded-xl shadow p-6">
       <h2 className="text-xl font-bold">{member.name}</h2>
 
       <p className="text-gray-500 mt-2">{member.email}</p>

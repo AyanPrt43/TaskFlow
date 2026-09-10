@@ -52,8 +52,8 @@ function TaskDetailsModal({ isOpen, onClose, task, onDelete, onUpdate }) {
     <>
       {/* Task Details Modal */}
 
-      <div className="fixed inset-0 bg-black/50 flex items-center justify-center">
-        <div className="bg-white rounded-xl p-8 w-full max-w-md">
+      <div className="fixed inset-0 bg-black/50 text-black flex items-center justify-center">
+        <div className="bg-white/50 rounded-xl p-8 w-full max-w-md">
           <h2 className="text-2xl font-bold">{task.title}</h2>
 
           <p className="text-gray-600 mt-3">{task.description}</p>

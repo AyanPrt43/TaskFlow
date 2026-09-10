@@ -7,16 +7,16 @@ function Profile() {
   const { user } = useAuth();
 
   return (
-    <div className="flex min-h-screen bg-gray-100">
+    <div className="flex min-h-screen ">
       <Sidebar />
 
       <div className="flex-1">
         <Navbar />
 
         <div className="p-8">
-          <h1 className="text-4xl font-bold mb-8">My Profile</h1>
+          <h1 className="text-4xl font-bold mb-8 text-white">My Profile</h1>
 
-          <div className="bg-white rounded-xl shadow p-8 max-w-xl">
+          <div className="rounded-xl shadow p-8 max-w-xl bg-black/20 border border-white/40 shadow-white/20 ">
             <div className="flex items-center gap-5 mb-8">
               <img
                 src={user?.avatar?.url || "https://placehold.co/100x100"}
@@ -25,13 +25,13 @@ function Profile() {
               />
 
               <div>
-                <h2 className="text-2xl font-bold">{user?.username}</h2>
+                <h2 className="text-2xl font-bold text-white">{user?.username}</h2>
 
                 <p className="text-gray-500">{user?.email}</p>
               </div>
             </div>
 
-            <div className="space-y-4">
+            <div className="space-y-4 text-white/80">
               <div>
                 <p className="text-gray-500">Username</p>
 
