@@ -7,5 +7,14 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "TaskFlow"
+  base: 'TaskFlow',
+  server: {
+    proxy: {
+      '/api/v1': {
+        target: 'http://localhost:8000',
+        changeOrigin: true,
+        secure: false,
+      },
+    },
+  },
 })
