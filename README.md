@@ -1,8 +1,97 @@
 # 🚀 TaskFlow — Full-Stack Project Management Platform
 
-TaskFlow is a **full-stack project management platform** built with the **MERN stack**. It provides a modern, responsive interface for organizing projects, tasks, subtasks, and team members, backed by a modular Node.js/Express.js API and MongoDB database.
+<p align="center">
+  <strong>A modern full-stack project management platform built with the MERN stack.</strong>
+</p>
 
-The project focuses on **secure authentication, scalable application architecture, reusable React components, REST APIs, and clean separation between frontend and backend responsibilities**.
+<p align="center">
+  Manage projects, tasks, subtasks, and team members through a clean, responsive interface.
+</p>
+
+<p align="center">
+  <a href="https://vercel.com/ayan-298e/task-flow/6isrnFRoHkNgUkkCarxbkU2dcAZF">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-Visit%20TaskFlow-blue?style=for-the-badge" alt="Live Demo">
+  </a>
+  <a href="https://github.com/AyanPrt43/TaskFlow">
+    <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github" alt="GitHub Repository">
+  </a>
+</p>
+
+---
+
+# 📸 Application Screenshots
+
+TaskFlow provides a modern and responsive interface for authentication, project management, task tracking, team collaboration, and user profile management.
+
+---
+
+## 🔐 Login
+
+The authentication interface provides a clean and responsive login experience for users.
+
+<p align="center">
+  <img src="./task-manager-frontend/public/Login.png" alt="TaskFlow Login" width="900">
+</p>
+
+---
+
+## 📊 Dashboard
+
+The dashboard provides an overview of projects, tasks, progress, recent activity, and other important information.
+
+<p align="center">
+  <img src="./task-manager-frontend/public/Dashboard.png" alt="TaskFlow Dashboard" width="900">
+</p>
+
+---
+
+## 📁 Projects
+
+The Projects section allows users to view and manage their projects through an organized project interface.
+
+<p align="center">
+  <img src="./task-manager-frontend/public/Projects.png" alt="TaskFlow Projects" width="900">
+</p>
+
+---
+
+## ✅ Tasks
+
+The Tasks section provides an organized workspace for viewing, creating, editing, assigning, and tracking tasks and subtasks.
+
+<p align="center">
+  <img src="./task-manager-frontend/public/Tasks.png" alt="TaskFlow Tasks" width="900">
+</p>
+
+---
+
+## 👥 Members
+
+The Members section provides an interface for viewing and managing project team members and assigning members to tasks.
+
+<p align="center">
+  <img src="./task-manager-frontend/public/Members.png" alt="TaskFlow Members" width="900">
+</p>
+
+---
+
+## 👤 Profile
+
+The Profile section provides users with their account and profile information.
+
+<p align="center">
+  <img src="./task-manager-frontend/public/Profile.png" alt="TaskFlow Profile" width="900">
+</p>
+
+> **TaskFlow Dashboard** — A responsive project management interface for tracking projects, tasks, progress, and team activity.
+
+---
+
+## 🌐 Live Application
+
+### 👉 [🚀 Visit TaskFlow Live Demo](https://vercel.com/ayan-298e/task-flow/6isrnFRoHkNgUkkCarxbkU2dcAZF)
+
+Experience the deployed application and explore the authentication flow, dashboard, project management interface, task management, and responsive UI.
 
 ---
 
@@ -12,128 +101,179 @@ The project focuses on **secure authentication, scalable application architectur
 
 - User registration and login
 - JWT-based authentication
-- Access Token and Refresh Token support
+- Access Token and Refresh Token architecture
 - HTTP-only cookie-based authentication
-- Password hashing using **bcrypt**
+- Password hashing with bcrypt
 - Email verification workflow
-- Protected routes
+- Protected API routes
+- Protected frontend routes
 - Current authenticated user retrieval
 - Logout functionality
 - Request validation
 - Centralized API error handling
 
-### 📋 Project & Task Management UI
+### 📋 Project Management
 
 - Project dashboard
-- Project cards and recent projects
-- Task management interface
-- Task columns and task cards
-- Task creation and editing modals
-- Task details view
-- Subtask creation and management
-- Task progress tracking
-- Team member management interface
+- Project cards
+- Recent projects
+- Project creation interface
+- Team member management
 - Member assignment interface
-- Activity timeline
-- Responsive dashboard layout
+- Project-oriented task organization
 
-### 🎨 Frontend
+### ✅ Task Management
+
+- Create tasks
+- Edit tasks
+- Task details view
+- Task columns
+- Task cards
+- Subtask management
+- Task progress tracking
+- Task assignment interface
+- Activity timeline
+
+### 🎨 Modern Frontend
 
 - Responsive React.js interface
 - Reusable component architecture
-- React Context API for application/authentication state
-- React Router for client-side navigation
-- Axios-based API communication
-- Protected frontend routes
-- Tailwind CSS styling
-- Toast notifications for user feedback
-
-### ⚙️ Backend
-
-- RESTful API architecture
-- Express.js application
-- Modular routes and controllers
-- Mongoose models and schemas
-- Authentication middleware
-- Request validation middleware
-- Centralized API response structure
-- Centralized error handling
-- Environment-based configuration
-- MongoDB integration
+- React Context API
+- React Router
+- Axios API integration
+- Tailwind CSS
+- Toast notifications
+- Protected navigation
+- Responsive dashboard layout
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
-### Frontend
+## Frontend
 
-| Technology | Purpose |
-|---|---|
-| **React.js** | Frontend UI |
-| **React Router** | Client-side routing |
-| **Tailwind CSS** | Styling and responsive design |
-| **Axios** | API communication |
-| **React Context API** | Global state management |
-| **React Hot Toast** | Notifications |
-| **Vite** | Development and build tooling |
+<p>
+  <img src="https://img.shields.io/badge/React.js-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/Axios-1-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt="Axios">
+</p>
 
-### Backend
+- **React.js** — UI development
+- **React Router** — Client-side routing
+- **Tailwind CSS** — Styling and responsive design
+- **Axios** — HTTP/API communication
+- **React Context API** — State management
+- **React Hot Toast** — Notifications
+- **Vite** — Development and build tooling
 
-| Technology | Purpose |
-|---|---|
-| **Node.js** | JavaScript runtime |
-| **Express.js** | Backend framework |
-| **MongoDB** | Database |
-| **Mongoose** | MongoDB ODM |
-| **JWT** | Authentication |
-| **bcrypt** | Password hashing |
-| **Express Validator** | Request validation |
-| **Nodemailer** | Email delivery |
-| **Mailgen** | Email template generation |
-| **Cookie Parser** | Cookie handling |
-| **CORS** | Cross-origin request management |
+## Backend
+
+<p>
+  <img src="https://img.shields.io/badge/Node.js-22-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Express.js-5-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js">
+  <img src="https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+  <img src="https://img.shields.io/badge/Mongoose-ODM-880000?style=for-the-badge&logo=mongoose&logoColor=white" alt="Mongoose">
+</p>
+
+- **Node.js** — Server-side JavaScript runtime
+- **Express.js** — REST API framework
+- **MongoDB** — NoSQL database
+- **Mongoose** — MongoDB ODM
+- **JWT** — Authentication
+- **bcrypt** — Password hashing
+- **Express Validator** — Request validation
+- **Nodemailer** — Email delivery
+- **Mailgen** — Email template generation
+- **CORS** — Cross-origin resource sharing
+- **Cookie Parser** — Cookie handling
 
 ---
 
-## 🏗️ Project Architecture
+# 🏗️ Architecture
 
-TaskFlow follows a **separated frontend/backend architecture**.
+TaskFlow follows a separated **frontend/backend architecture**.
 
 ```text
-                    ┌─────────────────────┐
-                    │      React UI       │
-                    │   Tailwind CSS      │
-                    └──────────┬──────────┘
-                               │
-                               │ Axios / HTTP
-                               ▼
-                    ┌─────────────────────┐
-                    │    Express.js API   │
-                    │      REST APIs       │
-                    └──────────┬──────────┘
-                               │
-             ┌─────────────────┼─────────────────┐
-             │                 │                 │
-             ▼                 ▼                 ▼
-        Controllers        Middleware        Validators
-             │                 │                 │
-             └─────────────────┼─────────────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │       Mongoose      │
-                    │   Models / Schemas  │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │       MongoDB       │
-                    └─────────────────────┘
+                    ┌────────────────────────┐
+                    │       React.js         │
+                    │      Frontend UI       │
+                    │    Tailwind CSS        │
+                    └───────────┬────────────┘
+                                │
+                                │ Axios / HTTP
+                                ▼
+                    ┌────────────────────────┐
+                    │      Express.js        │
+                    │       REST API         │
+                    └───────────┬────────────┘
+                                │
+               ┌────────────────┼────────────────┐
+               │                │                │
+               ▼                ▼                ▼
+        ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
+        │ Controllers │  │  Middleware │  │ Validators  │
+        └──────┬──────┘  └──────┬──────┘  └─────────────┘
+               │                │
+               └────────────────┘
+                        │
+                        ▼
+                ┌───────────────┐
+                │   Mongoose    │
+                │ Models/Schemas│
+                └───────┬───────┘
+                        │
+                        ▼
+                ┌───────────────┐
+                │    MongoDB    │
+                └───────────────┘
 ```
 
 ---
 
-## 📁 Project Structure
+# 🔐 Authentication Flow
+
+TaskFlow uses JWT-based authentication with access and refresh tokens.
+
+```text
+                    User
+                     │
+                     ▼
+              Register / Login
+                     │
+                     ▼
+             Authentication API
+                     │
+          ┌──────────┴──────────┐
+          │                     │
+          ▼                     ▼
+    Validate Request      Verify Credentials
+                                │
+                                ▼
+                         bcrypt Verification
+                                │
+                                ▼
+                         Generate JWT Tokens
+                                │
+                                ▼
+                       HTTP-Only Cookies
+                                │
+                                ▼
+                       Protected Request
+                                │
+                                ▼
+                    Authentication Middleware
+                                │
+                                ▼
+                          Verify JWT
+                                │
+                                ▼
+                     Identify Authenticated User
+```
+
+---
+
+# 📁 Project Structure
 
 ```text
 TaskFlow/
@@ -191,6 +331,9 @@ TaskFlow/
 │   ├── package.json
 │   └── vite.config.js
 │
+├── screenshots/
+│   └── dashboard.png
+│
 ├── .gitignore
 ├── package.json
 └── README.md
@@ -198,70 +341,7 @@ TaskFlow/
 
 ---
 
-## 🔑 Authentication Flow
-
-TaskFlow uses JWT-based authentication with access and refresh tokens.
-
-```text
-User
- │
- ▼
-Register / Login
- │
- ▼
-Express Authentication API
- │
- ├── Validate Request
- │
- ├── Verify User
- │
- ├── bcrypt Password Verification
- │
- └── Generate JWT Tokens
- │
- ▼
-HTTP-Only Cookies
- │
- ▼
-Protected API Requests
- │
- ▼
-Authentication Middleware
- │
- ├── Extract Access Token
- │
- ├── Verify JWT
- │
- └── Identify User
- │
- ▼
-Protected Controller
-```
-
-This approach keeps authentication logic separated from application controllers and allows protected resources to be accessed only by authenticated users.
-
----
-
-## 🔒 Security
-
-TaskFlow implements several security-oriented practices:
-
-- Password hashing with **bcrypt**
-- JWT access and refresh tokens
-- HTTP-only cookies for token storage
-- Protected API routes
-- Authentication middleware
-- Request validation
-- CORS configuration
-- Environment variables for sensitive configuration
-- Centralized error responses
-- Separation of authentication and application logic
-
-> **Important:** Never commit `.env` files, database credentials, JWT secrets, or email service credentials to the repository.
-
----
-
-## 🔌 API Structure
+# 🔌 API
 
 The backend API is versioned under:
 
@@ -269,32 +349,32 @@ The backend API is versioned under:
 /api/v1
 ```
 
-### Authentication
+## Authentication Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `POST` | `/auth/register` | Register a new user |
+| `POST` | `/auth/login` | Authenticate user |
+| `POST` | `/auth/logout` | Logout authenticated user |
+| `POST` | `/auth/refresh-token` | Refresh access token |
+| `POST` | `/auth/current-user` | Get current authenticated user |
+| `GET` | `/auth/verify-email/:VerificationToken` | Verify email |
+| `POST` | `/auth/resend-verification-email` | Resend verification email |
+| `POST` | `/auth/forgot-password-request` | Request password reset |
+| `POST` | `/auth/Forgot-password-reset/:ResetToken` | Reset password |
+| `POST` | `/auth/change-current-password` | Change current password |
+
+## Health Check
 
 ```text
-POST   /api/v1/auth/register
-POST   /api/v1/auth/login
-POST   /api/v1/auth/logout
-POST   /api/v1/auth/refresh-token
-POST   /api/v1/auth/current-user
-GET    /api/v1/auth/verify-email/:VerificationToken
-POST   /api/v1/auth/resend-verification-email
-POST   /api/v1/auth/forgot-password-request
-POST   /api/v1/auth/Forgot-password-reset/:ResetToken
-POST   /api/v1/auth/change-current-password
-```
-
-### Health Check
-
-```text
-GET    /api/v1/healthcheck
+GET /api/v1/healthcheck
 ```
 
 ---
 
-## ⚙️ Environment Variables
+# ⚙️ Environment Variables
 
-Create a `.env` file inside the backend root directory.
+Create a `.env` file in the backend root directory.
 
 ```env
 PORT=3000
@@ -315,13 +395,13 @@ MAILTRAP_SMTP_USER=your_smtp_username
 MAILTRAP_SMTP_PASS=your_smtp_password
 ```
 
-Use your own credentials and secrets. Do not publish them to GitHub.
+⚠️ **Never commit your `.env` file or expose database, JWT, or email credentials.**
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Installation & Setup
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 
 ```bash
 git clone https://github.com/AyanPrt43/TaskFlow.git
@@ -333,7 +413,7 @@ cd TaskFlow
 
 ---
 
-### 2. Install Backend Dependencies
+## 2. Install Backend Dependencies
 
 ```bash
 npm install
@@ -341,33 +421,33 @@ npm install
 
 ---
 
-### 3. Configure Environment Variables
+## 3. Configure Environment Variables
 
-Create:
+Create a `.env` file in the backend root directory and configure:
 
-```text
-.env
-```
-
-in the backend root directory and add the required environment variables.
+- MongoDB connection
+- JWT secrets
+- CORS origin
+- Email service credentials
+- Server port
 
 ---
 
-### 4. Start the Backend
+## 4. Start Backend
 
-For development:
+### Development
 
 ```bash
 npm run dev
 ```
 
-For production:
+### Production
 
 ```bash
 npm start
 ```
 
-The backend will run on the configured port, typically:
+Backend:
 
 ```text
 http://localhost:3000
@@ -375,9 +455,9 @@ http://localhost:3000
 
 ---
 
-### 5. Start the Frontend
+## 5. Start Frontend
 
-Move into the frontend directory:
+Open another terminal:
 
 ```bash
 cd task-manager-frontend
@@ -389,13 +469,13 @@ Install dependencies:
 npm install
 ```
 
-Start the Vite development server:
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
-The frontend will typically be available at:
+Frontend:
 
 ```text
 http://localhost:5173
@@ -403,11 +483,13 @@ http://localhost:5173
 
 ---
 
-## 🔄 Frontend API Configuration
+# 🌐 Frontend API Configuration
 
-The frontend communicates with the backend using Axios.
+TaskFlow uses Axios for communication between the React frontend and Express backend.
 
 ```javascript
+import axios from "axios";
+
 const api = axios.create({
     baseURL: "/api/v1",
     withCredentials: true,
@@ -415,19 +497,25 @@ const api = axios.create({
         "Content-Type": "application/json"
     }
 });
+
+export default api;
 ```
 
-`withCredentials: true` allows authentication cookies to be included in API requests.
+The `withCredentials` configuration allows authentication cookies to be included with API requests.
 
 ---
 
-## 🧩 Reusable Frontend Components
+# 🧩 Reusable React Components
 
-The frontend is organized around reusable React components such as:
+TaskFlow follows a component-based architecture with reusable UI components.
+
+Some of the major components include:
 
 - `Navbar`
 - `Sidebar`
 - `ProjectCard`
+- `RecentProjects`
+- `RecentTasks`
 - `TaskCard`
 - `TaskColumn`
 - `TaskDetailsModal`
@@ -442,38 +530,60 @@ The frontend is organized around reusable React components such as:
 - `TaskProgress`
 - `ProtectedRoute`
 
-This component-based architecture makes the UI easier to maintain, extend, and reuse.
+This structure improves **reusability, maintainability, and scalability** of the frontend.
 
 ---
 
-## 🧠 Key Learning Outcomes
+# 🧠 Key Technical Concepts Demonstrated
 
-This project demonstrates practical experience with:
+This project demonstrates practical implementation of:
 
-- Full-stack MERN development
-- REST API design
+- MERN stack development
+- RESTful API architecture
 - JWT authentication
 - Access/refresh token architecture
-- Cookie-based authentication
+- HTTP-only cookies
 - Password hashing
-- MongoDB and Mongoose
+- MongoDB & Mongoose
 - Express middleware
 - Request validation
+- Centralized error handling
+- Centralized API responses
 - React Context API
 - React Router
 - Axios
 - Tailwind CSS
+- Protected routes
 - Reusable React components
+- Environment-based configuration
+- Email verification
 - Frontend/backend separation
-- Environment configuration
-- Error handling
-- Email verification workflows
 
 ---
 
-## 📌 Future Improvements
+# 📸 More Screenshots
 
-Planned improvements include:
+Additional screenshots can be added to the `screenshots` directory.
+
+### Dashboard
+
+![TaskFlow Dashboard](./screenshots/dashboard.png)
+
+### Project Management
+
+![TaskFlow Project Management](./screenshots/project-management.png)
+
+### Task Management
+
+![TaskFlow Task Management](./screenshots/task-management.png)
+
+### Task Details
+
+![Task Details](./screenshots/task-details.png)
+
+---
+
+# 🔮 Future Improvements
 
 - Complete project and task CRUD API integration
 - Role-based access control
@@ -483,32 +593,35 @@ Planned improvements include:
 - Task priorities and deadlines
 - File and image attachments
 - Dashboard analytics
-- Improved notification system
-- Production deployment and CI/CD
+- Notification system
 - Automated testing
+- CI/CD pipeline
+- Production deployment improvements
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-**Ayan Pratap**
+## Ayan Pratap
 
-B.Tech Computer Science & Engineering
+**B.Tech Computer Science & Engineering**
 
-### Connect
-
-- GitHub: `AyanPrt43`
-- LinkedIn: Add your LinkedIn profile
-- Portfolio: Add your portfolio URL
+<p>
+  <a href="https://github.com/AyanPrt43">
+    <img src="https://img.shields.io/badge/GitHub-AyanPrt43-black?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+</p>
 
 ---
 
-## ⭐ Support
+# ⭐ Show Your Support
 
-If you find this project useful or interesting, consider giving the repository a ⭐ on GitHub.
+If you found TaskFlow interesting, consider giving the repository a ⭐.
+
+Your feedback and suggestions are always welcome!
 
 ---
 
 ## 📄 License
 
-This project is currently available for educational and development purposes.
+This project is currently developed for educational and portfolio purposes.
