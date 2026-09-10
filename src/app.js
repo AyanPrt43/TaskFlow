@@ -18,12 +18,21 @@ app.get("/", (req, res) => {
 
 // CORS Configuration
 app.use(cors({
-    origin : process.env.CORS_ORIGIN?.split(',') || "https://localhost:5173",
-    credentials : true,
-    methods : ["GET", "PUT", "POST", "PATCH", "DELETE", "OPTIONS"],
-    allowedHeaders : ["Authorization", "Content-Type"],
-}),
-);
+    origin: process.env.CORS_ORIGIN?.split(",") || "http://localhost:5173",
+    credentials: true,
+    methods: [
+        "GET",
+        "PUT",
+        "POST",
+        "PATCH",
+        "DELETE",
+        "OPTIONS"
+    ],
+    allowedHeaders: [
+        "Authorization",
+        "Content-Type"
+    ],
+}));
 
 
 // This is where we want to import the routes
