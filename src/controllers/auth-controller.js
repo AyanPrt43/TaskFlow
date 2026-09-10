@@ -111,7 +111,9 @@ const login = asyncHandler(async (req, res) => {
                 // secure: true --> Ye browser ko bolta hai: Is cookie ko secure HTTPS connection par hi send karna.
                 const options = {
                     httpOnly: true,
-                    secure: true
+                    secure: true,
+                    sameSite: "none",
+                    path: "/"
                 }
 
                 return res.
@@ -147,7 +149,9 @@ const logout = asyncHandler(async(req, res) => {
     );
     const options = {
         httpOnly: true,
-        secure: true
+        secure: true,
+        sameSite: "none",
+        path: "/"
     }
     return res.status(200).clearCookie("AccessToken", options).clearCookie("RefreshToken", options).json(
         new ApiResponse(200, {}, "User logged out")
@@ -273,7 +277,7 @@ const RefreshAccessToken = asyncHandler(async(req, res) => {
 
         const options = {
             httpOnly: true,
-            secure: true
+            secure: true,
         }
 
         const {AccessToken, RefreshToken: NewRefreshToken} = await GenerateAccessTokenandRefreshToken(user._id)
