@@ -34,7 +34,7 @@ app.use(cors({
     ],
 }));
 
-
+// This is where we want to import the routes
 // This is where we want to import the routes
 import healthCheckRouter from "./routes/healthcheck.route.js"
 app.use("/api/v1/healthcheck", healthCheckRouter);
