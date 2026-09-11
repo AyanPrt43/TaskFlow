@@ -33,7 +33,7 @@ function CreateProjectModal({ isOpen, onClose, onCreate }) {
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center">
-      <div className="bg-black/20 rounded-xl p-8 w-full max-w-md">
+      <div className="bg-black/50 text-white rounded-xl p-8 w-full max-w-md border border-black/80 backdrop-blur-md shadow-white/35 shadow-sm">
         <h2 className="text-2xl font-bold mb-6">Create Project</h2>
 
         <form onSubmit={handleSubmit} className="space-y-5">
@@ -45,7 +45,7 @@ function CreateProjectModal({ isOpen, onClose, onCreate }) {
               name="name"
               value={projectData.name}
               onChange={handleChange}
-              className="w-full border p-3 rounded-lg"
+              className="w-full bg-black/50 text-white border border-black/80 p-3 rounded-lg"
               placeholder="Enter project name"
               required
             />
@@ -58,7 +58,7 @@ function CreateProjectModal({ isOpen, onClose, onCreate }) {
               name="description"
               value={projectData.description}
               onChange={handleChange}
-              className="w-full border p-3 rounded-lg"
+              className="w-full bg-black/50 text-white border-black/80 border p-3 rounded-lg"
               placeholder="Enter description"
               rows="4"
               required
@@ -69,14 +69,14 @@ function CreateProjectModal({ isOpen, onClose, onCreate }) {
             <button
               type="button"
               onClick={onClose}
-              className="w-1/2 border py-3 rounded-lg"
+              className="w-1/2 bg-red-600 text-white py-3 rounded-lg transition-all duration-300 hover:bg-red-700 hover:scale-102"
             >
               Cancel
             </button>
 
             <button
               type="submit"
-              className="w-1/2 bg-black text-white py-3 rounded-lg"
+              className="w-1/2 bg-blue-600 text-white py-3 rounded-lg transition-all duration-300 hover:bg-blue-700 hover:scale-102"
             >
               Create
             </button>
